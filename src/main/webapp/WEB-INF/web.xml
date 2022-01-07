@@ -1,0 +1,43 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>com.myorg.MyServlet.Servlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Test</servlet-name>
+        <servlet-class>com.myorg.MyServlet.Test</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddBook</servlet-name>
+        <servlet-class>com.myorg.MyServlet.AddBook</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getBook</servlet-name>
+        <servlet-class>com.myorg.MyServlet.getBook</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/Servlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Test</servlet-name>
+        <url-pattern>/Test</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddBook</servlet-name>
+        <url-pattern>/AddBook</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>getBook</servlet-name>
+        <url-pattern>/getBook</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
